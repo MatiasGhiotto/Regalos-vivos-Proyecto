@@ -264,3 +264,31 @@ footer div img {
 .escalar{
     transform: scale(1, 1);
 }
+
+/*---------------Animaciones------------------*/
+.titulo-animado{
+    animation-name: texto;
+    animation-duration:3s;
+    animation-iteration-count: 1;
+}
+.menu-animado{
+    animation-name:menu;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+}
+@keyframes texto{
+    from {
+        transform:translateX(1000px) ;
+    }
+    to {
+        transform: translate(0);
+    }
+}
+@keyframes menu{
+    from{
+        transform: translateY(-500px);
+    }
+    to{
+        transform: translate(0);
+    }
+}
