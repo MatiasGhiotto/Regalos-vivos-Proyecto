@@ -247,3 +247,12 @@ footer div img {
         font-size: 20px;
     }
 }
+
+
+/*----------------Transicion------------------------*/
+.transicion{
+    transition: width 2s, height 2s;
+}
+.trancision:hover {
+    width: 50%, height 50%;
+}
