@@ -248,6 +248,10 @@ footer div img {
     }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> secundaria
 /*----------------Transicion------------------------*/
 .transicion{
     transition: all 2s;
@@ -257,3 +261,12 @@ footer div img {
     height 50vh;
     border: solid 10px rgb(151, 123, 71) ;
 }
+<<<<<<< HEAD
+=======
+
+/*--------------------Transformaciones---------------*/
+
+.escalar{
+    transform: scale(1, 1);
+}
+>>>>>>> secundaria
