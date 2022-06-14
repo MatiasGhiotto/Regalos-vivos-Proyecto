@@ -11,6 +11,26 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.boton {
+    display: inline-flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: greenyellow;    
+    padding: 20px;    
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.boton a:hover {
+    background-color: rgb(142, 135, 35);
+    color: white;
+}
+
+.boton a img {
+    width: 100%;
+    height: 40px;
+}
+
 /*-----------------------------------HEADER-----------------------------------*/
 
 .header {
@@ -20,7 +40,7 @@ body {
     text-decoration: none;
     display: flex;
     background-color: rgb(154, 197, 73);
-    padding: 20px;    
+    padding: 20px;
     grid-area: header;
     height: 150px;
     width: 100%;
@@ -32,7 +52,7 @@ body {
 }
 
 nav {
-    background-size: cover;    
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -188,9 +208,9 @@ h4 {
     display: flex;
     background-size: cover;
     height: 200px;
-    width: 100%;    
+    width: 100%;
     background-color: rgb(151, 156, 81);
-    padding: 20px;    
+    padding: 20px;
     grid-area: footer;
 }
 
@@ -243,6 +263,7 @@ footer div img {
     .hero h1 {
         font-size: 40px;
     }
+
     .hero p {
         font-size: 20px;
     }
@@ -250,45 +271,51 @@ footer div img {
 
 
 /*----------------Transicion------------------------*/
-.transicion{
+.transicion {
     transition: all 2s;
 }
+
 .transicion:hover {
     width: 100%;
     height 50vh;
-    border: solid 10px rgb(151, 123, 71) ;
+    border: solid 10px rgb(151, 123, 71);
 }
 
 /*--------------------Transformaciones---------------*/
 
-.escalar{
+.escalar {
     transform: scale(1, 1);
 }
 
 /*---------------Animaciones------------------*/
-.titulo-animado{
+.titulo-animado {
     animation-name: texto;
-    animation-duration:3s;
+    animation-duration: 3s;
     animation-iteration-count: 1;
 }
-.menu-animado{
-    animation-name:menu;
+
+.menu-animado {
+    animation-name: menu;
     animation-duration: 3s;
-    animation-iteration-count:1;
+    animation-iteration-count: 1;
 }
-@keyframes texto{
+
+@keyframes texto {
     from {
-        transform:translateX(1000px) ;
+        transform: translateX(1000px);
     }
+
     to {
         transform: translate(0);
     }
 }
-@keyframes menu{
-    from{
+
+@keyframes menu {
+    from {
         transform: translateY(-500px);
     }
-    to{
+
+    to {
         transform: translate(0);
     }
 }
