@@ -199,40 +199,6 @@ h4 {
 }
 
 
-/* -----------Pag Productos---------- */
-h2 {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 2rem;
-}
-.slider h2 {
-    font-size: 30px;
-    color: wheat;
-}
-
-.slider>div {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.slider div div {
-    width: 300px;
-    height: 400px;
-    border: 1px black;
-    box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.slider div div img {
-    width: 300px;
-    height: 400px;
-    border-radius: 15px 15px 0 0;
-}
 
 /*---------------------------------------FOOTER------------------------------------------*/
 .footer {
@@ -370,4 +336,89 @@ footer div img {
     to {
         transform: translate(0);
     }
+}
+
+/* -----------Pag Productos---------- */
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+.slider h2 {
+    font-size: 30px;
+    color: wheat;
+}
+
+.slider>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.slider div div {
+    width: 300px;
+    height: 400px;
+    border: 1px black;
+    box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider div div img {
+    width: 300px;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+}
+
+/* -------INICIAR SESION-------- */
+.form-register{
+    width: 400px;
+    background-color: rgb(120, 155, 65) ;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family:'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+}
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls {
+    width: 100%;
+    background-color:rgb(96, 221, 23) ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-register a{
+    color: rgb(131, 68, 32);
+    text-decoration: none;
+}
+.form-register a:hover {
+    color: rgb(53, 46, 33);
+    text-decoration:underline;
+}
+.form-register .botons{
+    width: 100%;
+    background: #aedb8a;
+    border: none;
+    padding: 12px;
+    color: rgb(88, 79, 60);
+    margin: 16px 0;
+    font-size: 16px;
 }
