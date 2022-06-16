@@ -270,6 +270,11 @@ footer div img {
         font-size: 20px;
     }
 }
+@media  and (max-width:360px){
+    .hero h1 {
+        font-size:30px;
+    }
+}
 
 /*----------------Transicion------------------------*/
 .transicion {
