@@ -114,7 +114,7 @@ nav ul li a {
 }
 
 .main {
-    background-color:rgb(145, 131, 72);
+    background-color: #CAD593;
     grid-area: main;
 }
 
@@ -136,7 +136,7 @@ h1 {
 /*--------------Sect dos-----------------*/
 .categorias h2 {
     font-size: 30px;
-    color: whitesmoke;
+    color: black;
 }
 
 .categorias>div {
@@ -172,13 +172,15 @@ h1 {
 
 /*----------------Sect tres--------------*/
 h3 {
-    color: wheat;
+    color: black;
     font-size: 25px;
 }
-
+.section__tres {
+    background-color: #F7CE5B;
+}
 .section__tres p {
     font-size: 18px;
-    color: wheat;
+    color: black;
     border: solid rgb(209, 176, 116) ;
     padding: 20px;
     margin: 20px;
@@ -187,13 +189,16 @@ h3 {
 /*----------------Sect cuatro------------------*/
 h4 {
     font-size: 18px;
-    color: wheat;
+    color: black;
 }
 
+.section__cuatro{
+    background-color: #DDA77B;
+}
 .section__cuatro p {
     font-size: 18px;
-    color: wheat;
-    border: solid rgb(209, 176, 115);
+    color: black;
+    border: solid black;
     padding: 20px;
     margin: 20px;
 }
@@ -211,7 +216,7 @@ h4 {
     background-size: cover;
     height: 200px;
     width: 100%;
-    background-color: rgb(151, 156, 81);
+    background-color: #CAD593;
     padding: 20px;
     grid-area: footer;
 }
@@ -220,7 +225,7 @@ footer ul li a {
     justify-content: space-between;
     text-align: center;
     text-decoration: none;
-    color: wheat;
+    color: black;
     font-weight: 550;
     text-transform: uppercase;
     margin: 15px;
