@@ -6,16 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Regalos vivos</title>
-    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">    
     <link rel="stylesheet" href="../css/estilo.css">
-    <!--Insertando css forma externa-->
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
     <header class="header">
         <img src="../images/planta-en-maceta.png" alt="">
-        <nav>
+        <!-- <nav>
             <ul>
                 <li><a href="../index.html">inicio</a></li>
                 <li><a href="./productos.html">Productos</a></li>
@@ -23,7 +24,29 @@
                 <li><a href="./contacto.html">Contacto</a></li>
                 <li><a href="./iniciasesion.html">Iniciar Sesion</a></li>
             </ul>
+        </nav> -->
+        <!-- NAV BAR BOOTSTRAP -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="nav-link" href="../index.html">Regalos Vivos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="../pages/iniciasesion.html">Iniciar Sesion</a>
+                        <a class="nav-link" href="../pages/productos.html">Productos</a>
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        <a class="nav-link" href="../pages/conocenos.html">Nosotros</a>
+                    </div>
+                </div>
+            </div>
         </nav>
+
+        <!-- FIN NAV BAR BOOTSTRAP -->
     </header>
     <div class="grid-container">
         <main class="main">
@@ -84,6 +107,9 @@
             <img src="../images/whatsapp.png" alt="whatsapp">
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -114,7 +114,7 @@ nav ul li a {
 }
 
 .main {
-    background-color: rgba(170, 160, 70, 0.849);
+    background-color:rgb(145, 131, 72);
     grid-area: main;
 }
 
@@ -130,13 +130,13 @@ nav ul li a {
 
 h1 {
     font-size: 50px;
-    color: wheat;
+    color:wheat;
 }
 
 /*--------------Sect dos-----------------*/
 .categorias h2 {
     font-size: 30px;
-    color: wheat;
+    color: whitesmoke;
 }
 
 .categorias>div {
@@ -172,14 +172,14 @@ h1 {
 
 /*----------------Sect tres--------------*/
 h3 {
-    color: darkgreen;
+    color: wheat;
     font-size: 25px;
 }
 
 .section__tres p {
     font-size: 18px;
-    color: rgb(29, 109, 29, 0.973);
-    border: solid rgb(108, 182, 58, 0.699);
+    color: wheat;
+    border: solid rgb(209, 176, 116) ;
     padding: 20px;
     margin: 20px;
 }
@@ -187,13 +187,13 @@ h3 {
 /*----------------Sect cuatro------------------*/
 h4 {
     font-size: 18px;
-    color: darkgreen;
+    color: wheat;
 }
 
 .section__cuatro p {
     font-size: 18px;
-    color: rgb(29, 109, 29, 0.973);
-    border: solid rgba(108, 182, 58, 0.699);
+    color: wheat;
+    border: solid rgb(209, 176, 115);
     padding: 20px;
     margin: 20px;
 }
@@ -270,7 +270,8 @@ footer div img {
         font-size: 20px;
     }
 }
-@media  and (max-width:360px){
+@media  and (max-width:360px)
+{
     .hero h1 {
         font-size:30px;
     }
@@ -283,7 +284,7 @@ footer div img {
 
 .transicion:hover {
     width: 100%;
-    height 50vh;
+    height: 50vh;
     border: solid 10px rgb(151, 123, 71);
     background-size: cover;
 }
@@ -295,7 +296,7 @@ footer div img {
 
 .transicion:hover {
     width: 100%;
-    height 50vh;
+    height: 30vh;
     border: solid 10px rgb(151, 123, 71);
     background-size: cover;
 }
@@ -317,11 +318,7 @@ footer div img {
     animation-iteration-count: 1;
 }
 
-.menu-animado {
-    animation-name: menu;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-}
+
 
 @keyframes texto {
     from {
@@ -333,15 +330,7 @@ footer div img {
     }
 }
 
-@keyframes menu {
-    from {
-        transform: translateY(-500px);
-    }
 
-    to {
-        transform: translate(0);
-    }
-}
 
 /* -----------Pag Productos---------- */
 h2 {
