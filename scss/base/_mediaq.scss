@@ -1,5 +1,6 @@
 /*-------------------M   Q---------------------*/
-@media screen and (max-width:1629px) {
+@media screen and (max-width:1629px) 
+{
     .hero p {
         text-align: center;
         width: 60%;
@@ -7,14 +8,16 @@
 }
 
 
-@media screen and (max-width:1629px) {
+@media screen and (max-width:1629px) 
+{
     .grid-container {
         text-align: center;
         justify-content: center;
     }
 }
 
-@media screen and (max-width:582px) {
+@media screen and (max-width:582px) 
+{
     .header nav ul {
         flex-direction: column;
         justify-content: center;
@@ -23,7 +26,8 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:480px) 
+{
     .hero h1 {
         font-size: 40px;
     }
@@ -32,7 +36,7 @@
         font-size: 20px;
     }
 }
-@media  and (max-width:360px)
+@media screen and (max-width:360px)
 {
     .hero h1 {
         font-size:30px;
