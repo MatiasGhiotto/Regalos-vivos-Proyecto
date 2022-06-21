@@ -322,7 +322,8 @@ footer div img {
 }
 
 /*---------Animaciones----------*/
-.border {solid 10px rgb(151, 123, 71);
+.border {
+    border:solid 10px rgb(151, 123, 71);
 }
 
 /*--------------------Transformaciones---------------*/
@@ -360,7 +361,7 @@ h2 {
 }
 .slider h2 {
     font-size: 30px;
-    color: wheat;
+    color: black;
 }
 
 .slider>div {
