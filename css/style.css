@@ -11405,14 +11405,13 @@ body {
   }
 }
 /* ------------------Paleta de colores del proyecto---------------------- */
-/* ------------------Paleta de colores del proyecto---------------------- */
 .header {
   font-size: 14px;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
   display: flex;
-  background-color: .header color-principal;
+  background-color: rgb(154, 197, 73);
   padding: 20px;
   grid-area: header;
   height: 150px;
@@ -11438,7 +11437,11 @@ body {
 }
 
 /*----------------Sect uno--------------*/
-.hero {
+.grid-container .main {
+  background-color: #CAD593;
+  grid-area: main;
+}
+.grid-container .main .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11450,7 +11453,11 @@ body {
   background-attachment: fixed;
   height: 60vh;
 }
-.hero a {
+.grid-container .main .hero h1, .grid-container .main .hero .h1 {
+  font-size: 50px;
+  color: wheat;
+}
+.grid-container .main .hero h1 a, .grid-container .main .hero .h1 a {
   background-color: greenyellow;
   text-decoration: none;
   color: black;
@@ -11459,23 +11466,19 @@ body {
   margin-top: 10px;
   border-radius: 15px;
 }
-.hero a p {
+.grid-container .main .hero h1 a p, .grid-container .main .hero .h1 a p {
   font-size: 18px;
   color: darkkhaki;
 }
-.hero a p:hover {
+.grid-container .main .hero h1 a p:hover, .grid-container .main .hero .h1 a p:hover {
   background-color: olivedrab;
   color: white;
 }
 
-.main {
-  background-color: #CAD593;
-  grid-area: main;
-}
-.main section {
+section {
   padding: 20px;
 }
-.main section div {
+section div {
   font-size: 18px;
   color: wheat;
   font-weight: bold 900;
@@ -11669,7 +11672,11 @@ h2 .slider h2 .slider > div div img, .h2 .slider h2 .slider > div div img, h2 .s
   padding: 20px;
   grid-area: footer;
 }
-.footer ul li a {
+.footer img {
+  width: 100px;
+  height: 70%;
+}
+.footer img ul li a {
   justify-content: space-between;
   text-align: center;
   text-decoration: none;
@@ -11678,11 +11685,7 @@ h2 .slider h2 .slider > div div img, .h2 .slider h2 .slider > div div img, h2 .s
   text-transform: uppercase;
   margin: 15px;
 }
-.footer ul li img {
-  width: 100px;
-  height: 70%;
-}
-.footer ul li img div img {
+.footer img ul li div img {
   width: 50px;
   height: 50px;
 }/*# sourceMappingURL=style.css.map */

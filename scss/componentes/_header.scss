@@ -1,11 +1,11 @@
-@import "../base/variables";
+
 .header {
     font-size: 14px;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
     display: flex;
-    background-color: &color-principal;
+    background-color: rgb(154, 197, 73);;
     padding: 20px;
     grid-area: header;
     height: 150px;
