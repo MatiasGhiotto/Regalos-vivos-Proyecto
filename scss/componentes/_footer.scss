@@ -1,0 +1,38 @@
+.footer {
+    font-size: 14px;
+    color: rgb(7, 78, 4);
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    background-color: #CAD593;
+    padding: 20px;
+    grid-area: footer;
+    ul{
+        li{
+            a {
+                justify-content: space-between;
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                font-weight: 550;
+                text-transform: uppercase;
+                margin: 15px;
+            }
+            img {
+                width: 100px;
+                height: 70%;
+                div{
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+        } 
+
+    }
+}

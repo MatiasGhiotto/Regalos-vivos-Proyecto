@@ -1,0 +1,142 @@
+/*----------------Sect uno--------------*/
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/1229023/pexels-photo-1229023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+
+    a {
+        background-color: greenyellow;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 15px;
+
+        p {
+            font-size: 18px;
+            color: darkkhaki;
+
+            &:hover {
+                background-color: olivedrab;
+                color: white;
+            }
+        }
+    }
+}
+
+.main {
+    background-color: #CAD593;
+    grid-area: main;
+
+    section {
+        padding: 20px;
+
+        div {
+            font-size: 18px;
+            color: wheat;
+            font-weight: bold 900;
+        }
+    }
+
+}
+
+h1 {
+    font-size: 50px;
+    color: wheat;
+}
+
+/*--------------Sect dos-----------------*/
+.categorias h2 {
+    font-size: 30px;
+    color: black;
+
+    .section__dos {
+        font-size: 18px;
+        color: cadetblue;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .categorias>div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        div {
+            width: 300px;
+            height: 500px;
+            border: 1px black;
+            box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                width: 300px;
+                height: 400px;
+                border-radius: 15px 15px 0 0;
+            }
+        }
+    }
+}
+
+/*----------------Sect tres--------------*/
+h3 {
+    color: black;
+    font-size: 25px;
+
+    .section__tres {
+        background-color: #F7CE5B;
+
+        p {
+            font-size: 18px;
+            color: black;
+            border: solid rgb(209, 176, 116);
+            padding: 20px;
+            margin: 20px;
+        }
+    }
+}
+
+/*----------------Sect cuatro------------------*/
+h4 {
+    font-size: 18px;
+    color: black;
+    .section__cuatro{
+        background-color: #DDA77B;
+        p {
+            font-size: 18px;
+            color: black;
+            border: solid black;
+            padding: 20px;
+            margin: 20px;
+        }
+    }
+}
+
+/* -----------CONTACTO--------------- */
+.section__contacto{
+    background-color: #97df90;
+    h1 {
+        color: black;
+        p {
+            font-size: 18px;
+            color: black;
+            border: solid black;
+            padding: 20px;
+            margin: 20px;
+            }
+        }
+    }
+    
+    

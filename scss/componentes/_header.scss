@@ -1,0 +1,40 @@
+@import "../base/variables";
+.header {
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    background-color: &color-principal;
+    padding: 20px;
+    grid-area: header;
+    height: 150px;
+    width: 100%;
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    nav {
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        ul {
+            display: flex;
+
+            li {
+
+                a {
+                    text-decoration: none;
+                    color: wheat;
+                    font-weight: 550;
+                    text-transform: uppercase;
+                    margin: 10px;
+                }
+            }
+        }
+
+    }
+}
+

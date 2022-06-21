@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+.grid-container {
+    display: grid;
+}   
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.boton {
+    display: inline-flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: greenyellow;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    a img {
+        width: 100%;
+        height: 40px;
+        &:hover {
+            background-color: rgb(142, 135, 35);
+            color: white;
+                }
+            }
+}
