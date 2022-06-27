@@ -438,19 +438,18 @@
   text-decoration: underline;
 }
 .grid-container .form-register .botons {
+  display: block;
   width: 100%;
-  background: #aedb8a;
+  background-color: #aedb8a;
   border: none;
   padding: 12px;
   color: rgb(88, 79, 60);
   margin: 16px 0;
   font-size: 16px;
-}
-.grid-container .form-register .botons a {
-  color: rgb(131, 68, 32);
+  border-radius: 20px;
   text-decoration: none;
 }
-.grid-container .form-register .botons a:hover {
+.grid-container .form-register .botons:hover {
   color: rgb(53, 46, 33);
   text-decoration: underline;
 }
