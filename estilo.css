@@ -310,18 +310,6 @@ footer div img {
 }
 
 /*---------Animaciones----------*/
-.transicion {
-    transition: all 2s;
-}
-
-.transicion:hover {
-    width: 100%;
-    height: 30vh;
-    border: solid 10px rgb(151, 123, 71);
-    background-size: cover;
-}
-
-/*---------Animaciones----------*/
 .border {
     border:solid 10px rgb(151, 123, 71);
 }
