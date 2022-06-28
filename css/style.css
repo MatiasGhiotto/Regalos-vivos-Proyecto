@@ -10,6 +10,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+* .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr auto 0.5fr;
+  grid-template-areas: "header header" "main main" "footer footer";
+}
 
 /*-------------------M   Q---------------------*/
 @media screen and (max-width: 1630px) {
@@ -74,6 +80,7 @@
   width: 100px;
   height: 100px;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -104,10 +111,6 @@
   font-size: 18px;
   color: darkkhaki;
 }
-.grid-container .main .hero p {
-  font-size: 18px;
-  color: darkkhaki;
-}
 .grid-container .main .hero a {
   background-color: greenyellow;
   text-decoration: none;
@@ -120,14 +123,6 @@
 .grid-container .main .hero a:hover {
   background-color: olivedrab;
   color: white;
-}
-.grid-container .main .hero p {
-  font-size: 18px;
-  color: darkkhaki;
-}
-.grid-container .main .hero p {
-  font-size: 18px;
-  color: darkkhaki;
 }
 .grid-container .categorias h2 {
   font-size: 30px;
@@ -187,7 +182,7 @@
 
 .section__tres {
   background-color: #F7CE5B;
-  height: 25vh;
+  height: 35vh;
 }
 .section__tres h3 {
   color: black;
@@ -201,19 +196,9 @@
   margin: 20px;
 }
 
-.transicion {
-  transition: all 2s;
-}
-.transicion:hover {
-  width: 100%;
-  height: 25vh;
-  border: solid 10px rgb(151, 123, 71);
-  background-size: cover;
-}
-
 .section__cuatro {
   background-color: #DDA77B;
-  height: 25vh;
+  height: 35vh;
 }
 .section__cuatro h4 {
   font-size: 18px;
@@ -227,23 +212,7 @@
   margin: 20px;
 }
 
-.transicion {
-  transition: all 2s;
-}
-.transicion:hover {
-  width: 100%;
-  height: 25vh;
-  border: solid 10px rgb(151, 123, 71);
-  background-size: cover;
-}
-
 /* -----------------------PAG PRODUCTOS-------------------------- */
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr auto 0.5fr;
-  grid-template-areas: "header header" "main main" "footer footer";
-}
 .grid-container .main {
   background-color: #CAD593;
   grid-area: main;
@@ -336,12 +305,6 @@
 }
 
 /* -------------------INICIAR SESION-------------------- */
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr auto 0.5fr;
-  grid-template-areas: "header header" "main main" "footer footer";
-}
 .grid-container main {
   background-color: #CAD593;
   grid-area: main;
@@ -407,12 +370,6 @@
   margin-bottom: 10px;
 }
 /* ------------------CONTACTO------------------ */
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr auto 0.5fr;
-  grid-template-areas: "header header" "main main" "footer footer";
-}
 .grid-container main {
   background-color: #CAD593;
   grid-area: main;
@@ -437,12 +394,6 @@
 }
 
 /* ------------------CONOCENOS---------------------- */
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr auto 0.5fr;
-  grid-template-areas: "header header" "main main" "footer footer";
-}
 .grid-container main {
   background-color: #CAD593;
   grid-area: main;

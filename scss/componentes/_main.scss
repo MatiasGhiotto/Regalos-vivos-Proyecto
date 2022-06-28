@@ -27,17 +27,10 @@
                 font-size: 50px;
                 color: wheat;
             }
-
             p {
                 font-size: 18px;
                 color: darkkhaki;
             }
-
-            p {
-                font-size: 18px;
-                color: darkkhaki;
-            }
-
             a {
                 background-color: greenyellow;
                 text-decoration: none;
@@ -51,16 +44,6 @@
                     background-color: olivedrab;
                     color: white;
                 }
-            }
-
-            p {
-                font-size: 18px;
-                color: darkkhaki;
-            }
-
-            p {
-                font-size: 18px;
-                color: darkkhaki;
             }
         }
     }
@@ -124,7 +107,7 @@
 
 .section__tres {
     background-color: #F7CE5B;
-    height: 25vh;
+    height: 35vh;
 
     h3 {
         color: black;
@@ -139,21 +122,9 @@
         margin: 20px;
     }
 }
-
-.transicion {
-    transition: all 2s;
-
-    &:hover {
-        width: 100%;
-        height: 25vh;
-        border: solid 10px rgb(151, 123, 71);
-        background-size: cover;
-    }
-}
-
 .section__cuatro {
     background-color: #DDA77B;
-    height: 25vh;
+    height: 35vh;
 
     h4 {
         font-size: 18px;
@@ -169,26 +140,8 @@
     }
 }
 
-.transicion {
-    transition: all 2s;
-
-    &:hover {
-        width: 100%;
-        height: 25vh;
-        border: solid 10px rgb(151, 123, 71);
-        background-size: cover;
-    }
-}
-
 /* -----------------------PAG PRODUCTOS-------------------------- */
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr auto 0.5fr;
-    grid-template-areas:
-        "header header"
-        "main main"
-        "footer footer";
 
     .main {
         background-color: #CAD593;
@@ -307,14 +260,6 @@
 /* -------------------INICIAR SESION-------------------- */
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr auto 0.5fr;
-    grid-template-areas:
-        "header header"
-        "main main"
-        "footer footer";
-
     main {
         background-color: #CAD593;
         grid-area: main;
@@ -407,13 +352,7 @@ section{
 }
 /* ------------------CONTACTO------------------ */
 .grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr auto 0.5fr;
-    grid-template-areas:
-        "header header"
-        "main main"
-        "footer footer";
+
         main{
             background-color: #CAD593;
             grid-area: main;
@@ -447,13 +386,7 @@ section{
 }
 /* ------------------CONOCENOS---------------------- */
 .grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr auto 0.5fr;
-    grid-template-areas:
-        "header header"
-        "main main"
-        "footer footer";
+
         main{
             background-color: #CAD593;
             grid-area: main;
