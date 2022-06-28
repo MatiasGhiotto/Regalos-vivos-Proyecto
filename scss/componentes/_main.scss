@@ -1,5 +1,3 @@
-.grid-container {
-
     .main {
         background-color: #CAD593;
         grid-area: main;
@@ -42,7 +40,7 @@
             }
         }
     }
-}
+
 
 .categorias {
     h2 {
@@ -122,7 +120,6 @@
 }
 
 /* -----------------------PAG PRODUCTOS-------------------------- */
-.grid-container {
 
     .main {
         background-color: #CAD593;
@@ -164,7 +161,7 @@
         }
 
     }
-}
+
 
 .categorias {
     h2 {
@@ -240,8 +237,7 @@
 
 /* -------------------INICIAR SESION-------------------- */
 
-.grid-container {
-    main {
+    .main {
         background-color: #CAD593;
         grid-area: main;
 
@@ -332,12 +328,10 @@
             p {}
         }
     }
-}
+
 
 /* ------------------CONTACTO------------------ */
-.grid-container {
-
-    main {
+    .main {
         background-color: #CAD593;
         grid-area: main;
 
@@ -373,12 +367,10 @@
             }
         }
     }
-}
+
 
 /* ------------------CONOCENOS---------------------- */
-.grid-container {
-
-    main {
+    .main {
         background-color: #CAD593;
         grid-area: main;
 
@@ -410,4 +402,3 @@
             p {}
         }
     }
-}
