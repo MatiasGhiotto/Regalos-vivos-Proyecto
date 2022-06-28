@@ -81,12 +81,6 @@
   height: 100px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr auto 0.5fr;
-  grid-template-areas: "header header" "main main" "footer footer";
-}
 .grid-container .main {
   background-color: #CAD593;
   grid-area: main;
@@ -124,17 +118,18 @@
   background-color: olivedrab;
   color: white;
 }
-.grid-container .categorias h2 {
+
+.categorias h2 {
   font-size: 30px;
   color: black;
 }
-.grid-container .categorias > div {
+.categorias > div {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
-.grid-container .categorias > div div {
+.categorias > div div {
   width: 300px;
   height: 500px;
   border: 1px black;
@@ -146,40 +141,15 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.grid-container .categorias > div div img {
+.categorias > div div img {
   width: 300px;
   height: 400px;
   border-radius: 15px 15px 0 0;
 }
-.grid-container .categorias > div div h3 {
+.categorias > div div h3 {
   color: black;
   font-size: 25px;
 }
-.grid-container .titulo-animado {
-  -webkit-animation-name: texto;
-          animation-name: texto;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-}
-@-webkit-keyframes texto {
-  from {
-    transform: translateX(1000px);
-  }
-  to {
-    transform: translate(0);
-  }
-}
-@keyframes texto {
-  from {
-    transform: translateX(1000px);
-  }
-  to {
-    transform: translate(0);
-  }
-}
-
 .section__tres {
   background-color: #F7CE5B;
   height: 35vh;
