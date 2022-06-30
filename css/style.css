@@ -4,7 +4,6 @@
   box-sizing: border-box;
   list-style: none;
 }
-
 * .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -52,10 +51,19 @@
   .hero p {
     font-size: 20px;
   }
+
+  .form-register {
+    width: 400px;
+  }
 }
 @media screen and (max-width: 360px) {
   .hero h1 {
     font-size: 30px;
+  }
+}
+@media sceen and (max-width: 423) {
+  .form-register {
+    width: 400px;
   }
 }
 /* ------------------Paleta de colores del proyecto---------------------- */
@@ -76,11 +84,11 @@
   height: 100px;
 }
 
-.grid-container .main {
+.main {
   background-color: #CAD593;
   grid-area: main;
 }
-.grid-container .main .hero {
+.main .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,31 +100,31 @@
   background-attachment: fixed;
   height: 65vh;
 }
-.grid-container .main .hero h1 {
+.main .hero h1 {
   font-size: 50px;
   color: wheat;
 }
-.grid-container .main .hero p {
+.main .hero p {
   font-size: 18px;
-  color: darkkhaki;
+  color: #000000;
 }
-.grid-container .main .hero a {
+.main .hero a {
   background-color: greenyellow;
   text-decoration: none;
-  color: black;
+  color: #000000;
   font-size: 16px;
   padding: 10px;
   margin-top: 10px;
   border-radius: 10px;
 }
-.grid-container .main .hero a:hover {
+.main .hero a:hover {
   background-color: olivedrab;
   color: white;
 }
 
 .categorias h2 {
   font-size: 30px;
-  color: black;
+  color: #000000;
 }
 .categorias > div {
   display: flex;
@@ -142,7 +150,7 @@
   border-radius: 15px 15px 0 0;
 }
 .categorias > div div h3 {
-  color: black;
+  color: #000000;
   font-size: 25px;
 }
 .section__tres {
@@ -150,12 +158,12 @@
   height: 35vh;
 }
 .section__tres h3 {
-  color: black;
+  color: #000000;
   font-size: 25px;
 }
 .section__tres p {
   font-size: 18px;
-  color: black;
+  color: #000000;
   border: solid rgb(209, 176, 116);
   padding: 20px;
   margin: 20px;
@@ -167,33 +175,33 @@
 }
 .section__cuatro h4 {
   font-size: 18px;
-  color: black;
+  color: #000000;
 }
 .section__cuatro p {
   font-size: 18px;
-  color: black;
+  color: #000000;
   border: solid black;
   padding: 20px;
   margin: 20px;
 }
 
 /* -----------------------PAG PRODUCTOS-------------------------- */
-.grid-container .main {
+.main {
   background-color: #CAD593;
   grid-area: main;
 }
-.grid-container .main section h1 {
+.main section h1 {
   font-size: 50px;
   color: black;
 }
-.grid-container .main section p {
+.main section p {
   padding: 20px;
   text-align: justify;
   justify-content: left;
   font-size: 18px;
-  color: black;
+  color: #000000;
 }
-.grid-container .main .boton {
+.main .boton {
   display: inline-flex;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -202,18 +210,18 @@
   text-decoration: none;
   border-radius: 80px;
 }
-.grid-container .main .boton img {
+.main .boton img {
   width: 100%;
   height: 5vh;
 }
-.grid-container .main .boton:hover {
+.main .boton:hover {
   background-color: rgb(142, 135, 35);
   color: white;
 }
 
 .categorias h2 {
   font-size: 30px;
-  color: black;
+  color: #000000;
 }
 .categorias > div {
   display: flex;
@@ -239,13 +247,13 @@
   border-radius: 15px 15px 0 0;
 }
 .categorias > div div h3 {
-  color: black;
+  color: #000000;
   font-size: 25px;
 }
 .slider h2 {
   padding: 20px;
   font-size: 30px;
-  color: black;
+  color: #000000;
 }
 .slider > div {
   display: flex;
@@ -270,11 +278,11 @@
 }
 
 /* -------------------INICIAR SESION-------------------- */
-.grid-container main {
+.main {
   background-color: #CAD593;
   grid-area: main;
 }
-.grid-container .form-register {
+.form-register {
   width: 400px;
   background-color: rgb(120, 155, 65);
   padding: 30px;
@@ -282,14 +290,14 @@
   margin-top: 100px;
   border-radius: 4px;
   font-family: "calibri";
-  color: rgb(0, 0, 0);
+  color: #000000;
   box-shadow: 7px 13px 37px #000;
 }
-.grid-container .form-register h4 {
+.form-register h4 {
   font-size: 22px;
   margin-bottom: 20px;
 }
-.grid-container .form-register .controls {
+.form-register .controls {
   width: 100%;
   background-color: rgb(96, 221, 23);
   padding: 10px;
@@ -299,21 +307,21 @@
   font-family: "calibri";
   font-size: 18px;
 }
-.grid-container .form-register .controls p {
+.form-register .controls p {
   height: 40px;
   text-align: center;
   font-size: 18px;
   line-height: 40px;
 }
-.grid-container .form-register .controls p a {
-  color: rgb(131, 68, 32);
-  text-decoration: none;
-}
-.grid-container .form-register .controls p a:hover {
+.form-register .controls p:hover {
   color: rgb(53, 46, 33);
   text-decoration: underline;
 }
-.grid-container .form-register .botons {
+.form-register .controls p a {
+  color: rgb(131, 68, 32);
+  text-decoration: none;
+}
+.form-register .botons {
   display: block;
   width: 100%;
   background-color: #aedb8a;
@@ -325,41 +333,98 @@
   border-radius: 20px;
   text-decoration: none;
 }
-.grid-container .form-register .botons:hover {
+.form-register .botons:hover {
   color: rgb(53, 46, 33);
   text-decoration: underline;
 }
-.grid-container section {
+
+section {
   padding: 20px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 /* ------------------CONTACTO------------------ */
-.grid-container main {
+.main {
   background-color: #CAD593;
   grid-area: main;
 }
-.grid-container main section h1 {
-  color: black;
+.main section h1 {
+  color: #000000;
 }
-.grid-container main .section__contacto {
+.main .section__contacto {
   padding: 20px;
   background-color: #97df90;
 }
-.grid-container main .section__contacto div p {
+.main .section__contacto div p {
   font-size: 18px;
-  color: black;
+  color: #000000;
   border: solid black;
   padding: 20px;
   margin: 20px;
 }
-.grid-container main .section__contacto div h4 {
+.main .section__contacto div h4 {
   text-decoration: underline;
   padding: 20px;
 }
 
+.form-register {
+  width: 400px;
+  background-color: rgb(120, 155, 65);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: #000000;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.form-register .controls {
+  width: 100%;
+  background-color: rgb(96, 221, 23);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px;
+  font-family: "calibri";
+  font-size: 18px;
+}
+.form-register .controls p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.form-register .controls p:hover {
+  color: rgb(53, 46, 33);
+  text-decoration: underline;
+}
+.form-register .controls p a {
+  color: rgb(131, 68, 32);
+  text-decoration: none;
+}
+.form-register .botons {
+  display: block;
+  width: 100%;
+  background-color: #aedb8a;
+  border: none;
+  padding: 12px;
+  color: rgb(88, 79, 60);
+  margin: 16px 0;
+  font-size: 16px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.form-register .botons:hover {
+  color: rgb(53, 46, 33);
+  text-decoration: underline;
+}
+
 /* ------------------CONOCENOS---------------------- */
-.grid-container main {
+.main {
   background-color: #CAD593;
   grid-area: main;
 }

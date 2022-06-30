@@ -1,5 +1,5 @@
     .main {
-        background-color: #CAD593;
+        background-color:$color-fondo;
         grid-area: main;
 
         .hero {
@@ -21,13 +21,13 @@
 
             p {
                 font-size: 18px;
-                color: darkkhaki;
+                color: $color-letras;
             }
 
             a {
                 background-color: greenyellow;
                 text-decoration: none;
-                color: black;
+                color: $color-letras;
                 font-size: 16px;
                 padding: 10px;
                 margin-top: 10px;
@@ -45,7 +45,7 @@
 .categorias {
     h2 {
         font-size: 30px;
-        color: black;
+        color: $color-letras;
     }
 
     >div {
@@ -73,7 +73,7 @@
             }
 
             h3 {
-                color: black;
+                color: $color-letras;
                 font-size: 25px;
             }
 
@@ -88,13 +88,13 @@
     height: 35vh;
 
     h3 {
-        color: black;
+        color:$color-letras;
         font-size: 25px;
     }
 
     p {
         font-size: 18px;
-        color: black;
+        color: $color-letras;
         border: solid rgb(209, 176, 116);
         padding: 20px;
         margin: 20px;
@@ -107,12 +107,12 @@
 
     h4 {
         font-size: 18px;
-        color: black;
+        color: $color-letras;
     }
 
     p {
         font-size: 18px;
-        color: black;
+        color: $color-letras;
         border: solid black;
         padding: 20px;
         margin: 20px;
@@ -122,7 +122,7 @@
 /* -----------------------PAG PRODUCTOS-------------------------- */
 
     .main {
-        background-color: #CAD593;
+        background-color: $color-fondo;
         grid-area: main;
 
         section {
@@ -136,7 +136,7 @@
                 text-align: justify;
                 justify-content: left;
                 font-size: 18px;
-                color: black;
+                color: $color-letras;
             }
         }
 
@@ -166,7 +166,7 @@
 .categorias {
     h2 {
         font-size: 30px;
-        color: black;
+        color:$color-letras;
     }
 
     >div {
@@ -194,7 +194,7 @@
             }
 
             h3 {
-                color: black;
+                color:$color-letras;
                 font-size: 25px;
             }
 
@@ -207,7 +207,7 @@
     h2 {
         padding: 20px;
         font-size: 30px;
-        color: black;
+        color: $color-letras;
     }
 
     >div {
@@ -238,7 +238,7 @@
 /* -------------------INICIAR SESION-------------------- */
 
     .main {
-        background-color: #CAD593;
+        background-color: $color-fondo;
         grid-area: main;
 
         section {
@@ -256,13 +256,13 @@
 
     .form-register {
         width: 400px;
-        background-color: rgb(120, 155, 65);
+        background-color: $color-form;
         padding: 30px;
         margin: auto;
         margin-top: 100px;
         border-radius: 4px;
         font-family: 'calibri';
-        color: rgb(0, 0, 0);
+        color: $color-letras;
         box-shadow: 7px 13px 37px #000;
 
         h4 {
@@ -285,15 +285,13 @@
                 text-align: center;
                 font-size: 18px;
                 line-height: 40px;
-
+                &:hover {
+                    color: rgb(53, 46, 33);
+                    text-decoration: underline;
+                }
                 a {
                     color: rgb(131, 68, 32);
                     text-decoration: none;
-
-                    &:hover {
-                        color: rgb(53, 46, 33);
-                        text-decoration: underline;
-                    }
                 }
             }
         }
@@ -332,12 +330,12 @@
 
 /* ------------------CONTACTO------------------ */
     .main {
-        background-color: #CAD593;
+        background-color:$color-fondo;
         grid-area: main;
 
         section {
             h1 {
-                color: black;
+                color: $color-letras;
             }
 
             p {}
@@ -352,7 +350,7 @@
             div {
                 p {
                     font-size: 18px;
-                    color: black;
+                    color: $color-letras;
                     border: solid black;
                     padding: 20px;
                     margin: 20px;
@@ -365,13 +363,75 @@
                     padding: 20px;
                 }
             }
+        }        
+    }
+    .form-register {
+        width: 400px;
+        background-color:$color-form;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color: $color-letras;
+        box-shadow: 7px 13px 37px #000;
+
+        h4 {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .controls {
+            width: 100%;
+            background-color: rgb(96, 221, 23);
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px;
+            font-family: 'calibri';
+            font-size: 18px;
+
+            p {
+                height: 40px;
+                text-align: center;
+                font-size: 18px;
+                line-height: 40px;
+                &:hover {
+                    color: rgb(53, 46, 33);
+                    text-decoration: underline;
+                }
+                a {
+                    color: rgb(131, 68, 32);
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .botons {
+            display: block;
+            width: 100%;
+            background-color: #aedb8a;
+            border: none;
+            padding: 12px;
+            color: rgb(88, 79, 60);
+            margin: 16px 0;
+            font-size: 16px;
+            border-radius: 20px;
+            text-decoration: none;
+
+            &:hover {
+                color: rgb(53, 46, 33);
+                text-decoration: underline;
+
+            }
+
         }
     }
 
 
 /* ------------------CONOCENOS---------------------- */
     .main {
-        background-color: #CAD593;
+        background-color:$color-fondo;
         grid-area: main;
 
         section {

@@ -28,7 +28,6 @@
     }
 }
 
-
 @media screen and (max-width:582px) {
     .header nav ul {
         flex-direction: column;
@@ -46,10 +45,17 @@
     .hero p {
         font-size: 20px;
     }
+    .form-register {
+        width: 400px;
+    }
 }
 
 @media screen and (max-width:360px) {
     .hero h1 {
         font-size: 30px;
     }
+}
+@media sceen and (max-width:423) {
+    .form-register {
+        width: 400px;}
 }

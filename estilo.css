@@ -202,7 +202,7 @@ h4 {
     padding: 20px;
     margin: 20px;
 }
-/* -----------CONTACTO--------------- */
+/* ----------------------------------------CONTACTO----------------------------- */
 .section__contacto{
 background-color: #97df90;
 }
@@ -394,7 +394,7 @@ h2 {
 }
 .controls {
     width: 100%;
-    background-color:rgb(96, 221, 23) ;
+    background-color:rgb(101, 218, 126) ;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
@@ -425,3 +425,4 @@ h2 {
     margin: 16px 0;
     font-size: 16px;
 }
+
