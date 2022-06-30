@@ -51,19 +51,18 @@
   .hero p {
     font-size: 20px;
   }
-
+}
+@media screen and (max-width: 430px) {
   .form-register {
-    width: 400px;
+    margin: auto;
+    max-width: 400px;
+    width: 90%;
+    padding: 4.5em 3em;
   }
 }
 @media screen and (max-width: 360px) {
   .hero h1 {
     font-size: 30px;
-  }
-}
-@media sceen and (max-width: 423) {
-  .form-register {
-    width: 400px;
   }
 }
 /* ------------------Paleta de colores del proyecto---------------------- */

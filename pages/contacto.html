@@ -16,20 +16,41 @@
     <header class="header">
         <img src="../images/planta-en-maceta.png" alt="">
 
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-light fixed-top">
             <div class="container-fluid">
-                <a class="nav-link" href="../index.html">inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="../pages/iniciasesion.html">Iniciar Sesion</a>
-                        <a class="nav-link" href="../pages/productos.html">Productos</a>
-                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                        <a class="nav-link" href="../pages/conocenos.html">Nosotros</a>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Regalos vivos</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="iniciasesion.html">Iniciar Sesion</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Contacto
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                    <li><a class="dropdown-item" href="conocenos.html">Conocenos</a></li>
+                                    <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+                                    <li><a class="dropdown-item" href="productos.html">Productos</a>                                       
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -44,18 +65,17 @@
                 <p> Por cualquier consulta o inconveniente nos pueden contactar a nuestro telefono o podes dejar tu
                     mensaje, en menos de 24 horas vas a recibir tu respuesta.
                 </p>
-            </section>
-            <h4>Dejanos tu mensaje</h4>
+            </section>            
             <section class="section__contacto">
                 <h6>Contacto:Regalosvivos@gmail.com</h6>
                 <h6>Telefono:1145678901</h6>
-                <h6>Email:regaalosvivos@gmail.org</h6>
+                <h6>Email:regaalosvivos@gmail.com</h6>
                 <div class="form-register">
                     <h4>Dejanos tu mensaje</h4>
                     <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
                     <input class="controls" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
                     <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
-                    <textarea name="mensaje" placeholder="Ingrese su mensaje"></textarea>
+                    <textarea class="controls" name="mensaje" placeholder="Ingrese su mensaje"></textarea>
                     <input class="botons" type="submit" value="Enviar">
             </section>
     </div>
