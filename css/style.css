@@ -321,7 +321,7 @@
   color: rgb(131, 68, 32);
   text-decoration: none;
 }
-.form-register .botons {
+.form-register .botons, .form-register .boton-ic, .form-register .boton-contacto {
   display: block;
   width: 100%;
   background-color: #aedb8a;
@@ -333,7 +333,7 @@
   border-radius: 20px;
   text-decoration: none;
 }
-.form-register .botons:hover {
+.form-register .botons:hover, .form-register .boton-ic:hover, .form-register .boton-contacto:hover {
   color: rgb(53, 46, 33);
   text-decoration: underline;
 }
@@ -406,7 +406,7 @@ section {
   color: rgb(131, 68, 32);
   text-decoration: none;
 }
-.form-register .botons {
+.form-register .botons, .form-register .boton-ic, .form-register .boton-contacto {
   display: block;
   width: 100%;
   background-color: #aedb8a;
@@ -418,7 +418,7 @@ section {
   border-radius: 20px;
   text-decoration: none;
 }
-.form-register .botons:hover {
+.form-register .botons:hover, .form-register .boton-ic:hover, .form-register .boton-contacto:hover {
   color: rgb(53, 46, 33);
   text-decoration: underline;
 }
@@ -428,6 +428,26 @@ section {
   background-color: #CAD593;
   grid-area: main;
 }
+/* Extends */
+.boton-contacto {
+  background-color: #8adb95;
+}
+
+.boton-ic {
+  background-color: #dbbb8a;
+}
+
+/* Mixins */
+.form-ic {
+  width: 400px;
+  height: 450px;
+}
+
+.form-contacto {
+  width: 400px;
+  height: 400px;
+}
+
 .footer {
   font-size: 14px;
   color: rgb(7, 78, 4);

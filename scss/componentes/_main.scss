@@ -462,3 +462,26 @@
             p {}
         }
     }
+/* Extends */
+.boton-contacto{
+    @extend .botons;
+    background-color: #8adb95;    
+}
+.boton-ic{
+    @extend.botons;
+    background-color: #dbbb8a;
+}
+
+/* Mixins */
+@mixin formulario ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;    
+}
+.form-ic{
+@include formulario(400px,450px);
+}
+.form-contacto{    
+@include formulario (400px, 400px);
+}
+
+
