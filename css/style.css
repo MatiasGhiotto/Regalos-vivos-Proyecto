@@ -52,14 +52,6 @@
     font-size: 20px;
   }
 }
-@media screen and (max-width: 430px) {
-  .form-register {
-    margin: auto;
-    max-width: 400px;
-    width: 90%;
-    padding: 4.5em 3em;
-  }
-}
 @media screen and (max-width: 360px) {
   .hero h1 {
     font-size: 30px;
@@ -282,11 +274,9 @@
   grid-area: main;
 }
 .form-register {
-  width: 400px;
+  width: 300px;
   background-color: rgb(120, 155, 65);
   padding: 30px;
-  margin: auto;
-  margin-top: 100px;
   border-radius: 4px;
   font-family: "calibri";
   color: #000000;
@@ -367,12 +357,12 @@ section {
 }
 
 .form-register {
-  width: 400px;
+  width: 300px;
   background-color: rgb(120, 155, 65);
   padding: 30px;
   margin: auto;
   margin-top: 100px;
-  border-radius: 4px;
+  border-radius: 50px;
   font-family: "calibri";
   color: #000000;
   box-shadow: 7px 13px 37px #000;
