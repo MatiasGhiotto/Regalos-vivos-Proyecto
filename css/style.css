@@ -273,20 +273,22 @@
   background-color: #CAD593;
   grid-area: main;
 }
-.form-register-is {
+.form-register-contacto {
   width: 300px;
   background-color: rgb(120, 155, 65);
   padding: 30px;
-  border-radius: 4px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 50px;
   font-family: "calibri";
   color: #000000;
   box-shadow: 7px 13px 37px #000;
 }
-.form-register-is h4 {
+.form-register-contacto h4 {
   font-size: 22px;
   margin-bottom: 20px;
 }
-.form-register-is .controls {
+.form-register-contacto .controls {
   width: 100%;
   background-color: rgb(96, 221, 23);
   padding: 10px;
@@ -296,17 +298,17 @@
   font-family: "calibri";
   font-size: 18px;
 }
-.form-register-is .controls p {
+.form-register-contacto .controls p {
   height: 40px;
   text-align: center;
   font-size: 18px;
   line-height: 40px;
 }
-.form-register-is .controls p:hover {
+.form-register-contacto .controls p:hover {
   color: rgb(53, 46, 33);
   text-decoration: underline;
 }
-.form-register-is .controls p a {
+.form-register-contacto .controls p a {
   color: rgb(131, 68, 32);
   text-decoration: none;
 }
