@@ -273,7 +273,7 @@
   background-color: #CAD593;
   grid-area: main;
 }
-.form-register {
+.form-register-is {
   width: 300px;
   background-color: rgb(120, 155, 65);
   padding: 30px;
@@ -282,11 +282,11 @@
   color: #000000;
   box-shadow: 7px 13px 37px #000;
 }
-.form-register h4 {
+.form-register-is h4 {
   font-size: 22px;
   margin-bottom: 20px;
 }
-.form-register .controls {
+.form-register-is .controls {
   width: 100%;
   background-color: rgb(96, 221, 23);
   padding: 10px;
@@ -296,21 +296,22 @@
   font-family: "calibri";
   font-size: 18px;
 }
-.form-register .controls p {
+.form-register-is .controls p {
   height: 40px;
   text-align: center;
   font-size: 18px;
   line-height: 40px;
 }
-.form-register .controls p:hover {
+.form-register-is .controls p:hover {
   color: rgb(53, 46, 33);
   text-decoration: underline;
 }
-.form-register .controls p a {
+.form-register-is .controls p a {
   color: rgb(131, 68, 32);
   text-decoration: none;
 }
-.form-register .botons, .form-register .boton-ic, .form-register .boton-contacto {
+
+.botons, .boton-ic, .boton-contacto {
   display: block;
   width: 100%;
   background-color: #aedb8a;
@@ -322,7 +323,7 @@
   border-radius: 20px;
   text-decoration: none;
 }
-.form-register .botons:hover, .form-register .boton-ic:hover, .form-register .boton-contacto:hover {
+.botons:hover, .boton-ic:hover, .boton-contacto:hover {
   color: rgb(53, 46, 33);
   text-decoration: underline;
 }
@@ -356,7 +357,7 @@ section {
   padding: 20px;
 }
 
-.form-register {
+.form-register-contacto {
   width: 300px;
   background-color: rgb(120, 155, 65);
   padding: 30px;
@@ -367,11 +368,11 @@ section {
   color: #000000;
   box-shadow: 7px 13px 37px #000;
 }
-.form-register h4 {
+.form-register-contacto h4 {
   font-size: 22px;
   margin-bottom: 20px;
 }
-.form-register .controls {
+.form-register-contacto .controls {
   width: 100%;
   background-color: rgb(96, 221, 23);
   padding: 10px;
@@ -381,21 +382,21 @@ section {
   font-family: "calibri";
   font-size: 18px;
 }
-.form-register .controls p {
+.form-register-contacto .controls p {
   height: 40px;
   text-align: center;
   font-size: 18px;
   line-height: 40px;
 }
-.form-register .controls p:hover {
+.form-register-contacto .controls p:hover {
   color: rgb(53, 46, 33);
   text-decoration: underline;
 }
-.form-register .controls p a {
+.form-register-contacto .controls p a {
   color: rgb(131, 68, 32);
   text-decoration: none;
 }
-.form-register .botons, .form-register .boton-ic, .form-register .boton-contacto {
+.form-register-contacto .botons, .form-register-contacto .boton-ic, .form-register-contacto .boton-contacto {
   display: block;
   width: 100%;
   background-color: #aedb8a;
@@ -407,7 +408,7 @@ section {
   border-radius: 20px;
   text-decoration: none;
 }
-.form-register .botons:hover, .form-register .boton-ic:hover, .form-register .boton-contacto:hover {
+.form-register-contacto .botons:hover, .form-register-contacto .boton-ic:hover, .form-register-contacto .boton-contacto:hover {
   color: rgb(53, 46, 33);
   text-decoration: underline;
 }

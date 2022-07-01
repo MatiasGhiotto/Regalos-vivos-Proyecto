@@ -1,5 +1,5 @@
     .main {
-        background-color:$color-fondo;
+        background-color: $color-fondo;
         grid-area: main;
 
         .hero {
@@ -42,84 +42,84 @@
     }
 
 
-.categorias {
-    h2 {
-        font-size: 30px;
-        color: $color-letras;
-    }
+    .categorias {
+        h2 {
+            font-size: 30px;
+            color: $color-letras;
+        }
 
-    >div {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-
-        div {
-            width: 300px;
-            height: 500px;
-            border: 1px black;
-            box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+        >div {
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
-            margin-top: 30px;
-            margin-bottom: 30px;
+            flex-wrap: wrap;
 
-            img {
+            div {
                 width: 300px;
-                height: 400px;
-                border-radius: 15px 15px 0 0;
-            }
+                height: 500px;
+                border: 1px black;
+                box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 30px;
+                margin-bottom: 30px;
 
-            h3 {
-                color: $color-letras;
-                font-size: 25px;
-            }
+                img {
+                    width: 300px;
+                    height: 400px;
+                    border-radius: 15px 15px 0 0;
+                }
 
-            a {}
+                h3 {
+                    color: $color-letras;
+                    font-size: 25px;
+                }
+
+                a {}
+            }
         }
     }
-}
 
 
-.section__tres {
-    background-color: #F7CE5B;
-    height: 35vh;
+    .section__tres {
+        background-color: #F7CE5B;
+        height: 35vh;
 
-    h3 {
-        color:$color-letras;
-        font-size: 25px;
+        h3 {
+            color: $color-letras;
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 18px;
+            color: $color-letras;
+            border: solid rgb(209, 176, 116);
+            padding: 20px;
+            margin: 20px;
+        }
     }
 
-    p {
-        font-size: 18px;
-        color: $color-letras;
-        border: solid rgb(209, 176, 116);
-        padding: 20px;
-        margin: 20px;
+    .section__cuatro {
+        background-color: #DDA77B;
+        height: 35vh;
+
+        h4 {
+            font-size: 18px;
+            color: $color-letras;
+        }
+
+        p {
+            font-size: 18px;
+            color: $color-letras;
+            border: solid black;
+            padding: 20px;
+            margin: 20px;
+        }
     }
-}
 
-.section__cuatro {
-    background-color: #DDA77B;
-    height: 35vh;
-
-    h4 {
-        font-size: 18px;
-        color: $color-letras;
-    }
-
-    p {
-        font-size: 18px;
-        color: $color-letras;
-        border: solid black;
-        padding: 20px;
-        margin: 20px;
-    }
-}
-
-/* -----------------------PAG PRODUCTOS-------------------------- */
+    /* -----------------------PAG PRODUCTOS-------------------------- */
 
     .main {
         background-color: $color-fondo;
@@ -163,79 +163,79 @@
     }
 
 
-.categorias {
-    h2 {
-        font-size: 30px;
-        color:$color-letras;
-    }
-
-    >div {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-
-        div {
-            width: 300px;
-            height: 500px;
-            border: 1px black;
-            box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 30px;
-            margin-bottom: 30px;
-
-            img {
-                width: 300px;
-                height: 400px;
-                border-radius: 15px 15px 0 0;
-            }
-
-            h3 {
-                color:$color-letras;
-                font-size: 25px;
-            }
-
-            a {}
+    .categorias {
+        h2 {
+            font-size: 30px;
+            color: $color-letras;
         }
-    }
-}
 
-.slider {
-    h2 {
-        padding: 20px;
-        font-size: 30px;
-        color: $color-letras;
-    }
-
-    >div {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-
-        div {
-            width: 300px;
-            height: 400px;
-            border: 1px black;
-            box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+        >div {
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
+            flex-wrap: wrap;
 
-            img {
+            div {
                 width: 300px;
-                height: 400px;
-                border-radius: 15px 15px 0 0;
+                height: 500px;
+                border: 1px black;
+                box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                img {
+                    width: 300px;
+                    height: 400px;
+                    border-radius: 15px 15px 0 0;
+                }
+
+                h3 {
+                    color: $color-letras;
+                    font-size: 25px;
+                }
+
+                a {}
             }
         }
     }
-}
 
-/* -------------------INICIAR SESION-------------------- */
+    .slider {
+        h2 {
+            padding: 20px;
+            font-size: 30px;
+            color: $color-letras;
+        }
+
+        >div {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+
+            div {
+                width: 300px;
+                height: 400px;
+                border: 1px black;
+                box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                img {
+                    width: 300px;
+                    height: 400px;
+                    border-radius: 15px 15px 0 0;
+                }
+            }
+        }
+    }
+
+    /* -------------------INICIAR SESION-------------------- */
 
     .main {
         background-color: $color-fondo;
@@ -254,118 +254,9 @@
         }
     }
 
-    .form-register {
+    .form-register-contacto {
         width: 300px;
         background-color: $color-form;
-        padding: 30px;
-        border-radius: 4px;
-        font-family: 'calibri';
-        color: $color-letras;
-        box-shadow: 7px 13px 37px #000;
-
-        h4 {
-            font-size: 22px;
-            margin-bottom: 20px;
-        }
-
-        .controls {
-            width: 100%;
-            background-color: rgb(96, 221, 23);
-            padding: 10px;
-            border-radius: 4px;
-            margin-bottom: 16px;
-            border: 1px;
-            font-family: 'calibri';
-            font-size: 18px;
-
-            p {
-                height: 40px;
-                text-align: center;
-                font-size: 18px;
-                line-height: 40px;
-                &:hover {
-                    color: rgb(53, 46, 33);
-                    text-decoration: underline;
-                }
-                a {
-                    color: rgb(131, 68, 32);
-                    text-decoration: none;
-                }
-            }
-        }
-
-        .botons {
-            display: block;
-            width: 100%;
-            background-color: #aedb8a;
-            border: none;
-            padding: 12px;
-            color: rgb(88, 79, 60);
-            margin: 16px 0;
-            font-size: 16px;
-            border-radius: 20px;
-            text-decoration: none;
-
-            &:hover {
-                color: rgb(53, 46, 33);
-                text-decoration: underline;
-
-            }
-
-        }
-    }
-
-    section {
-        padding: 20px;
-        margin-top: 30px;
-        margin-bottom: 10px;
-
-        h3 {
-            p {}
-        }
-    }
-
-
-/* ------------------CONTACTO------------------ */
-    .main {
-        background-color:$color-fondo;
-        grid-area: main;
-
-        section {
-            h1 {
-                color: $color-letras;
-            }
-
-            p {}
-        }
-
-        .section__contacto {
-            padding: 20px;
-            background-color: #97df90;
-
-            h3 {}
-
-            div {
-                p {
-                    font-size: 18px;
-                    color: $color-letras;
-                    border: solid black;
-                    padding: 20px;
-                    margin: 20px;
-                }
-            }
-
-            div {
-                h4 {
-                    text-decoration: underline;
-                    padding: 20px;
-                }
-            }
-        }        
-    }
-    .form-register {
-        width: 300px;
-        background-color:$color-form;
         padding: 30px;
         margin: auto;
         margin-top: 100px;
@@ -394,10 +285,12 @@
                 text-align: center;
                 font-size: 18px;
                 line-height: 40px;
+
                 &:hover {
                     color: rgb(53, 46, 33);
                     text-decoration: underline;
                 }
+
                 a {
                     color: rgb(131, 68, 32);
                     text-decoration: none;
@@ -424,62 +317,179 @@
             }
 
         }
-    }
 
 
-/* ------------------CONOCENOS---------------------- */
-    .main {
-        background-color:$color-fondo;
-        grid-area: main;
 
         section {
-            img {}
+            padding: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
 
-            h1 {}
-
-            p {}
+            h3 {
+                p {}
+            }
         }
 
-        section {
-            h2 {}
+
+        /* ------------------CONTACTO------------------ */
+        .main {
+            background-color: $color-fondo;
+            grid-area: main;
+
+            section {
+                h1 {
+                    color: $color-letras;
+                }
+
+                p {}
+            }
+
+            .section__contacto {
+                padding: 20px;
+                background-color: #97df90;
+
+                h3 {}
+
+                div {
+                    p {
+                        font-size: 18px;
+                        color: $color-letras;
+                        border: solid black;
+                        padding: 20px;
+                        margin: 20px;
+                    }
+                }
+
+                div {
+                    h4 {
+                        text-decoration: underline;
+                        padding: 20px;
+                    }
+                }
+            }
         }
 
-        section {
-            h3 {}
+        .form-register-contacto {
+            width: 300px;
+            background-color: $color-form;
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 50px;
+            font-family: 'calibri';
+            color: $color-letras;
+            box-shadow: 7px 13px 37px #000;
 
-            p {}
+            h4 {
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
 
-            h4 {}
+            .controls {
+                width: 100%;
+                background-color: rgb(96, 221, 23);
+                padding: 10px;
+                border-radius: 4px;
+                margin-bottom: 16px;
+                border: 1px;
+                font-family: 'calibri';
+                font-size: 18px;
 
-            p {}
+                p {
+                    height: 40px;
+                    text-align: center;
+                    font-size: 18px;
+                    line-height: 40px;
 
-            p {}
+                    &:hover {
+                        color: rgb(53, 46, 33);
+                        text-decoration: underline;
+                    }
 
-            p {}
+                    a {
+                        color: rgb(131, 68, 32);
+                        text-decoration: none;
+                    }
+                }
+            }
 
-            p {}
+            .botons {
+                display: block;
+                width: 100%;
+                background-color: #aedb8a;
+                border: none;
+                padding: 12px;
+                color: rgb(88, 79, 60);
+                margin: 16px 0;
+                font-size: 16px;
+                border-radius: 20px;
+                text-decoration: none;
+
+                &:hover {
+                    color: rgb(53, 46, 33);
+                    text-decoration: underline;
+
+                }
+
+            }
         }
-    }
-/* Extends */
-.boton-contacto{
-    @extend .botons;
-    background-color: #8adb95;    
-}
-.boton-ic{
-    @extend.botons;
-    background-color: #dbbb8a;
-}
-
-/* Mixins */
-@mixin formulario ($ancho, $alto) {
-    width: $ancho;
-    height: $alto;    
-}
-.form-ic{
-@include formulario(400px,450px);
-}
-.form-contacto{    
-@include formulario (400px, 400px);
-}
 
 
+        /* ------------------CONOCENOS---------------------- */
+        .main {
+            background-color: $color-fondo;
+            grid-area: main;
+
+            section {
+                img {}
+
+                h1 {}
+
+                p {}
+            }
+
+            section {
+                h2 {}
+            }
+
+            section {
+                h3 {}
+
+                p {}
+
+                h4 {}
+
+                p {}
+
+                p {}
+
+                p {}
+
+                p {}
+            }
+        }
+
+        /* Extends */
+        .boton-contacto {
+            @extend .botons;
+            background-color: #8adb95;
+        }
+
+        .boton-ic {
+            @extend.botons;
+            background-color: #dbbb8a;
+        }
+
+        /* Mixins */
+        @mixin formulario ($ancho, $alto) {
+            width: $ancho;
+            height: $alto;
+        }
+
+        .form-ic {
+            @include formulario(400px, 450px);
+        }
+
+        .form-contacto {
+            @include formulario (400px, 400px);
+        }
