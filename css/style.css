@@ -13,11 +13,6 @@
 
 /*-------------------M   Q---------------------*/
 @media screen and (max-width: 1630px) {
-  .hero p {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1630px) {
   .grid-container {
     text-align: center;
     justify-content: center;
@@ -41,15 +36,6 @@
     justify-content: center;
     text-align: center;
     width: 100%;
-  }
-}
-@media screen and (max-width: 480px) {
-  .hero h1 {
-    font-size: 40px;
-  }
-
-  .hero p {
-    font-size: 20px;
   }
 }
 @media screen and (max-width: 360px) {
@@ -96,8 +82,8 @@
   color: wheat;
 }
 .main .hero p {
-  font-size: 18px;
-  color: #000000;
+  font-size: 25px;
+  color: white;
 }
 .main .hero a {
   background-color: greenyellow;
@@ -144,9 +130,10 @@
   color: #000000;
   font-size: 25px;
 }
+
 .section__tres {
   background-color: #F7CE5B;
-  height: 35vh;
+  height: auto;
 }
 .section__tres h3 {
   color: #000000;
@@ -162,7 +149,7 @@
 
 .section__cuatro {
   background-color: #DDA77B;
-  height: 35vh;
+  height: auto;
 }
 .section__cuatro h4 {
   font-size: 18px;
@@ -241,6 +228,7 @@
   color: #000000;
   font-size: 25px;
 }
+
 .slider h2 {
   padding: 20px;
   font-size: 30px;

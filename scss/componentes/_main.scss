@@ -20,8 +20,8 @@
             }
 
             p {
-                font-size: 18px;
-                color: $color-letras;
+                font-size: 25px;
+                color: white;
             }
 
             a {
@@ -76,8 +76,6 @@
                     color: $color-letras;
                     font-size: 25px;
                 }
-
-                a {}
             }
         }
     }
@@ -85,7 +83,7 @@
 
     .section__tres {
         background-color: #F7CE5B;
-        height: 35vh;
+        height: auto;
 
         h3 {
             color: $color-letras;
@@ -103,7 +101,7 @@
 
     .section__cuatro {
         background-color: #DDA77B;
-        height: 35vh;
+        height: auto;
 
         h4 {
             font-size: 18px;
@@ -197,8 +195,6 @@
                     color: $color-letras;
                     font-size: 25px;
                 }
-
-                a {}
             }
         }
     }
@@ -437,31 +433,6 @@
             grid-area: main;
 
             section {
-                img {}
-
-                h1 {}
-
-                p {}
-            }
-
-            section {
-                h2 {}
-            }
-
-            section {
-                h3 {}
-
-                p {}
-
-                h4 {}
-
-                p {}
-
-                p {}
-
-                p {}
-
-                p {}
             }
         }
 
