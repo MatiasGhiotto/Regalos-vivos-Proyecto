@@ -24,10 +24,12 @@
     justify-content: center;
   }
 }
-@media screen and (max-width: 1269px) {
-  .main {
-    text-align: center;
+@media screen and (max-width: 800px) {
+  .mapa-contacto {
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
+    width: 100%;
   }
 }
 @media screen and (max-width: 582px) {
@@ -261,8 +263,9 @@
   background-color: #CAD593;
   grid-area: main;
 }
+
 .form-register-contacto {
-  width: 300px;
+  width: 400px;
   background-color: rgb(120, 155, 65);
   padding: 30px;
   margin: auto;
@@ -301,7 +304,7 @@
   text-decoration: none;
 }
 
-.botons, .boton-ic, .boton-contacto {
+.botons {
   display: block;
   width: 100%;
   background-color: #aedb8a;
@@ -313,7 +316,7 @@
   border-radius: 20px;
   text-decoration: none;
 }
-.botons:hover, .boton-ic:hover, .boton-contacto:hover {
+.botons:hover {
   color: rgb(53, 46, 33);
   text-decoration: underline;
 }
@@ -323,6 +326,7 @@ section {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
 /* ------------------CONTACTO------------------ */
 .main {
   background-color: #CAD593;
@@ -335,72 +339,23 @@ section {
   padding: 20px;
   background-color: #97df90;
 }
-.main .section__contacto div p {
+.main .section__contacto .mapa-contacto {
+  display: flex;
+  margin: 0px auto;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.main .section__contacto .mapa-contacto div p {
   font-size: 18px;
   color: #000000;
   border: solid black;
   padding: 20px;
   margin: 20px;
 }
-.main .section__contacto div h4 {
+.main .section__contacto .mapa-contacto div h4 {
   text-decoration: underline;
   padding: 20px;
-}
-
-.form-register-contacto {
-  width: 300px;
-  background-color: rgb(120, 155, 65);
-  padding: 30px;
-  margin: auto;
-  margin-top: 100px;
-  border-radius: 50px;
-  font-family: "calibri";
-  color: #000000;
-  box-shadow: 7px 13px 37px #000;
-}
-.form-register-contacto h4 {
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-.form-register-contacto .controls {
-  width: 100%;
-  background-color: rgb(96, 221, 23);
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 1px;
-  font-family: "calibri";
-  font-size: 18px;
-}
-.form-register-contacto .controls p {
-  height: 40px;
-  text-align: center;
-  font-size: 18px;
-  line-height: 40px;
-}
-.form-register-contacto .controls p:hover {
-  color: rgb(53, 46, 33);
-  text-decoration: underline;
-}
-.form-register-contacto .controls p a {
-  color: rgb(131, 68, 32);
-  text-decoration: none;
-}
-.form-register-contacto .botons, .form-register-contacto .boton-ic, .form-register-contacto .boton-contacto {
-  display: block;
-  width: 100%;
-  background-color: #aedb8a;
-  border: none;
-  padding: 12px;
-  color: rgb(88, 79, 60);
-  margin: 16px 0;
-  font-size: 16px;
-  border-radius: 20px;
-  text-decoration: none;
-}
-.form-register-contacto .botons:hover, .form-register-contacto .boton-ic:hover, .form-register-contacto .boton-contacto:hover {
-  color: rgb(53, 46, 33);
-  text-decoration: underline;
 }
 
 /* ------------------CONOCENOS---------------------- */
@@ -408,26 +363,28 @@ section {
   background-color: #CAD593;
   grid-area: main;
 }
+
 /* Extends */
-.boton-contacto {
-  background-color: #8adb95;
-}
-
-.boton-ic {
-  background-color: #dbbb8a;
-}
-
+/*     .boton-contacto {
+        @extend .botons;
+        background-color: #8adb95;
+    } */
+/*     .boton-ic {
+        @extend.botons;
+        background-color: #dbbb8a;
+    } */
 /* Mixins */
-.form-ic {
-  width: 400px;
-  height: 450px;
-}
-
-.form-contacto {
-  width: 400px;
-  height: 400px;
-}
-
+/*     @mixin formulario ($ancho, $alto) {
+        width: $ancho;
+        height: $alto;
+    } */
+/*     .form-ic {
+        @include formulario(400px, 450px);
+    } */
+/* 
+    .form-contacto {
+        @include formulario (400px, 400px);
+    } */
 .footer {
   font-size: 14px;
   color: rgb(7, 78, 4);

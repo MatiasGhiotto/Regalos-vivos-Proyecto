@@ -236,18 +236,10 @@
     .main {
         background-color: $color-fondo;
         grid-area: main;
-
-        section {
-
-        }
-
-        section {
-            h2 {}
-        }
     }
 
     .form-register-contacto {
-        width: 300px;
+        width: 400px;
         background-color: $color-form;
         padding: 30px;
         margin: auto;
@@ -290,58 +282,56 @@
             }
         }
     }
-        .botons {
-            display: block;
-            width: 100%;
-            background-color: #aedb8a;
-            border: none;
-            padding: 12px;
-            color: rgb(88, 79, 60);
-            margin: 16px 0;
-            font-size: 16px;
-            border-radius: 20px;
-            text-decoration: none;
 
-            &:hover {
-                color: rgb(53, 46, 33);
-                text-decoration: underline;
+    .botons {
+        display: block;
+        width: 100%;
+        background-color: #aedb8a;
+        border: none;
+        padding: 12px;
+        color: rgb(88, 79, 60);
+        margin: 16px 0;
+        font-size: 16px;
+        border-radius: 20px;
+        text-decoration: none;
 
-            }
+        &:hover {
+            color: rgb(53, 46, 33);
+            text-decoration: underline;
 
         }
 
+    }
 
+
+
+    section {
+        padding: 20px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+
+    /* ------------------CONTACTO------------------ */
+    .main {
+        background-color: $color-fondo;
+        grid-area: main;
 
         section {
-            padding: 20px;
-            margin-top: 30px;
-            margin-bottom: 10px;
-
-            h3 {
-                p {}
+            h1 {
+                color: $color-letras;
             }
         }
 
-
-        /* ------------------CONTACTO------------------ */
-        .main {
-            background-color: $color-fondo;
-            grid-area: main;
-
-            section {
-                h1 {
-                    color: $color-letras;
-                }
-
-                p {}
-            }
-
-            .section__contacto {
-                padding: 20px;
-                background-color: #97df90;
-
-                h3 {}
-
+        .section__contacto {
+            padding: 20px;
+            background-color: #97df90;
+            .mapa-contacto{                
+                display: flex;
+                margin: 0px auto;
+                flex-direction:row ;
+                justify-content:space-around;
+                align-items: center;
                 div {
                     p {
                         font-size: 18px;
@@ -351,112 +341,45 @@
                         margin: 20px;
                     }
                 }
-
+    
                 div {
                     h4 {
                         text-decoration: underline;
                         padding: 20px;
                     }
                 }
-            }
+            }       
         }
-
-        .form-register-contacto {
-            width: 300px;
-            background-color: $color-form;
-            padding: 30px;
-            margin: auto;
-            margin-top: 100px;
-            border-radius: 50px;
-            font-family: 'calibri';
-            color: $color-letras;
-            box-shadow: 7px 13px 37px #000;
-
-            h4 {
-                font-size: 22px;
-                margin-bottom: 20px;
-            }
-
-            .controls {
-                width: 100%;
-                background-color: rgb(96, 221, 23);
-                padding: 10px;
-                border-radius: 4px;
-                margin-bottom: 16px;
-                border: 1px;
-                font-family: 'calibri';
-                font-size: 18px;
-
-                p {
-                    height: 40px;
-                    text-align: center;
-                    font-size: 18px;
-                    line-height: 40px;
-
-                    &:hover {
-                        color: rgb(53, 46, 33);
-                        text-decoration: underline;
-                    }
-
-                    a {
-                        color: rgb(131, 68, 32);
-                        text-decoration: none;
-                    }
-                }
-            }
-
-            .botons {
-                display: block;
-                width: 100%;
-                background-color: #aedb8a;
-                border: none;
-                padding: 12px;
-                color: rgb(88, 79, 60);
-                margin: 16px 0;
-                font-size: 16px;
-                border-radius: 20px;
-                text-decoration: none;
-
-                &:hover {
-                    color: rgb(53, 46, 33);
-                    text-decoration: underline;
-
-                }
-
-            }
-        }
+    }
 
 
-        /* ------------------CONOCENOS---------------------- */
-        .main {
-            background-color: $color-fondo;
-            grid-area: main;
+    /* ------------------CONOCENOS---------------------- */
+    .main {
+        background-color: $color-fondo;
+        grid-area: main;
+    }
 
-            section {
-            }
-        }
+    /* Extends */
+/*     .boton-contacto {
+        @extend .botons;
+        background-color: #8adb95;
+    } */
 
-        /* Extends */
-        .boton-contacto {
-            @extend .botons;
-            background-color: #8adb95;
-        }
+/*     .boton-ic {
+        @extend.botons;
+        background-color: #dbbb8a;
+    } */
 
-        .boton-ic {
-            @extend.botons;
-            background-color: #dbbb8a;
-        }
+    /* Mixins */
+/*     @mixin formulario ($ancho, $alto) {
+        width: $ancho;
+        height: $alto;
+    } */
 
-        /* Mixins */
-        @mixin formulario ($ancho, $alto) {
-            width: $ancho;
-            height: $alto;
-        }
-
-        .form-ic {
-            @include formulario(400px, 450px);
-        }
-
-        .form-contacto {
-            @include formulario (400px, 400px);
-        }
+/*     .form-ic {
+        @include formulario(400px, 450px);
+    } */
+/* 
+    .form-contacto {
+        @include formulario (400px, 400px);
+    } */

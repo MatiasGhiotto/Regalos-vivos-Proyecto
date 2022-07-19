@@ -17,10 +17,12 @@
     }
 }
 
-@media screen and (max-width:1269px) {
-    .main {
-        text-align: center;
-        justify-content: center;        
+@media screen and (max-width:800px){
+    .mapa-contacto {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
     }
 }
 
@@ -29,7 +31,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        width: 100%;
+        width:100%;
     }
 }
 
